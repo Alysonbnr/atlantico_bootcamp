@@ -18,7 +18,7 @@ tokenized_lines = [regexp_tokenize(__,__) for s in __]
 line_num_words = [___ for t_line in tokenized_lines]
 
 # Plot a histogram of the line lengths
-plt.hist(__)
+___
 
 # Show the plot
 ___

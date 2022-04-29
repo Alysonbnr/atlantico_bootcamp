@@ -1,5 +1,3 @@
-![header.png](BOOTCAMP.png)
-
 # Atividades de Sala
 > Orientações para execução das atividades de sala.
 
@@ -39,7 +37,7 @@ Você se lembra do padrão ``[a-z]`` mostrado para corresponder aos grupos de le
 
 ```code2.py```
 
-Tokenização com NLTK
+####Tokenização com NLTK
 
 Aqui, você usará a primeira cena do Santo Graal do Monty Python, que foi pré-carregada como ``scene_one``. Sinta-se à vontade para conferir.
 
@@ -69,7 +67,7 @@ Você tem ``scene_one`` disponível.
 2) Imprima os índices inicial e final da correspondência usando seus métodos ```.start()``` e ```.end()```, respectivamente.
 3) Escreva uma expressão regular chamada ``pattern1`` para encontrar qualquer coisa entre colchetes.
 4) Use ``re.search()`` com o padrão para encontrar o primeiro texto entre colchetes em ``scene_one`` . Imprima o resultado.
-5) Crie um padrão para corresponder à notação que indica a ação de um personagem por exemplo, ``Fulano:``, atribuindo o resultado a ``pattern2``. Lembre-se que você vai pode combinar quaisquer palavras ou espaços que precedem o ``:``.
+5) Crie um padrão para corresponder à notação que indica a ação de um personagem por exemplo, ``Fulano:``, atribuindo o resultado a ``pattern2``. Lembre-se que você vai poder combinar quaisquer palavras ou espaços que precedem o ``:``.
 6) Use ``re.match()`` com seu novo padrão para localizar e imprimir o padrão encontrado na quarta sentença de ``sentences``.
 
 ### Questão 4
@@ -110,7 +108,7 @@ Usar compreensões de lista aqui acelerará seus cálculos. Por exemplo: ``my_li
 #### Instruções
 
 1) Divida o script ``holy_grail`` em linhas usando o comando ``'\n'``.
-2) Use ``re.sub()`` dentro de uma compreensão de lista para substituir as stringd como ARTHUR: e SOLDIER #1 por`` ''``. O padrão foi escrito para você.
+2) Use ``re.sub()`` dentro de uma compreensão de lista para substituir as strings como ARTHUR: e SOLDIER #1 por`` ''``. O padrão foi escrito para você.
 3) Use uma compreensão de lista para tokenizar ``lines`` com ``regexp_tokenize()``, mantendo apenas palavras. Lembre-se de que o padrão para palavras é ``"\w+"``.
 4) Use uma compreensão de lista para criar uma lista de comprimentos de linha chamada ``line_num_words``.
 5) Use ``t_line`` como sua variável iteradora para iterar sobre ``tokenized_lines`` e, em seguida, a função ``len()`` para calcular o tamanho da linha.

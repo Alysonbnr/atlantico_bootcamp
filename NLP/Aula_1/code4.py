@@ -1,7 +1,7 @@
 # Import the necessary modules
 
 ___
-from nlp_utils import get_tweets_sample
+from NLP.src.nlp_utils import get_tweets_sample
 
 tweets = get_tweets_sample()
 

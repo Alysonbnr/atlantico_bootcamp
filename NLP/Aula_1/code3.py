@@ -1,6 +1,5 @@
-import re
 from nltk.tokenize import sent_tokenize
-from nlp_utils import get_sample_Santo_Graal
+from NLP.src.nlp_utils import get_sample_Santo_Graal
 
 scene_one =  get_sample_Santo_Graal()
 sentences =  sent_tokenize(scene_one)

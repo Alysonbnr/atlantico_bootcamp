@@ -21,4 +21,4 @@ line_num_words = [___ for t_line in tokenized_lines]
 plt.hist(__)
 
 # Show the plot
-plt.show()
+___

@@ -31,7 +31,7 @@ Neste exercício, você construirá um contador de palavras usando um artigo da 
 
 ```code2.py```
 
-####Pré-processando o texto
+#### Pré-processando o texto
 
 Agora, você deve aplicar técnicas para pré-processar o texto e obter melhores resultados. Você precisará remover ``stop words`` e caracteres não alfabéticos, lematizar e executar um novo conjunto de palavras no texto limpo.
 
@@ -63,15 +63,7 @@ Você usará essas estruturas de dados para investigar tendências de palavras e
 
 #### Instruções
 
-
-    Import Dictionary from gensim.corpora.dictionary.
-    Initialize a gensim Dictionary with the tokens in articles.
-    Obtain the id for "computer" from dictionary. To do this, use its .token2id method which returns ids from text, and then chain .get() which returns tokens from ids. Pass in "computer" as an argument to .get().
-    Use a list comprehension in which you iterate over articles to create a gensim MmCorpus from dictionary.
-    In the output expression, use the .doc2bow() method on dictionary with article as the argument.
-    Print the first 10 word ids with their frequency counts from the fifth document. This has been done for you, so hit 'Submit Answer' to see the results!
-
-
+  
 1) Importe ``Dictionary`` de ``gensim.corpora.dictionary``.
 2) Inicialize o dicionário gensim com os tokens de ``articles``.
 3) Obtenha o index da string ``computer`` dentro de ``dictionary``. Para fazer isso, utilize o método ``.token2id.get()`` que retorna os indexes do token de ``dictionary``. Utilize ``computer`` como argumento de entrada.

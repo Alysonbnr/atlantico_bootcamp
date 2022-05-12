@@ -119,9 +119,6 @@ Determine os termos significativos para seu corpus aplicando o tf-idf com gensim
 
 #### Instruções
 
-Initialize a new TfidfModel called tfidf using corpus.
-Use doc to calculate the weights. You can do this by passing [doc] to tfidf.
-Print the first five term ids with weights
 1) Inicialize ``TfidfModel`` chamado ``tfidf`` usando ``corpus`` como argumento.
 2) Utilize ``doc`` para calcular os pesos.  Voce pode fazer isso passando [doc] para ``tiidf``.
 3) Print os 5 primeiros elementos de ``tfidf_weights``

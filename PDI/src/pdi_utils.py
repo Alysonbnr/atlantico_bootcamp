@@ -20,6 +20,24 @@ def load_flipped_seville():
 def load_lena():
     return plt.imread("imgs//lena.png")
 
+def load_lools_image():
+    return plt.imread("imgs//shapes52.jpg")
+
+def load_soaps_image():
+    return plt.imread("imgs//soaps.jpg")
+
+def load_building_image():
+    return plt.imread("imgs//toa-sharp-def-3.jpg")
+
+def load_chest_ray_x():
+    return plt.imread("imgs//contrast_00000109_005.png")
+
+def load_aerial_image():
+    return plt.imread("imgs//aerial.png")
+
+def load_rotate_cat():
+    return plt.imread("imgs//cat.jpg")
+
 def show_image(image, title='Image', cmap_type='gray'):
     plt.imshow(image, cmap=cmap_type)
     plt.title(title)

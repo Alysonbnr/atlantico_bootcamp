@@ -92,9 +92,9 @@ Neste exercício você ira aplicar a equalização do histograma da imagem.
 6) Utilizando a função ``var`` da ``numpy``, determine a variância dos valores dos pixels da imagem original.
 7) Utilizando a função ``var`` da ``numpy``, determine a variância dos valores dos pixels da imagem equalizada
 8) Determinar os pixels que ocorrem com frequência inferior a 20% da máxima frequência do histograma imagem original. A função ``max`` da ``numpy`` determina o maximo valor de um array.
-9) Determinar os pixels que ocorrem com frequência inferior a 20% da máxima frequência do histograma imagem equalizada. A função ``max`` da ``numpy`` determina o maximo valor de um array.
-10)Determinar a média do valor dos pixels que ocorrem com baixa frequência da imagem não equalizada.
-11)Determinar a media do valor dos pixels que ocorrem com baixa frequência da imagem equalizada.
-12)Determinar a entropia do histograma da imagem original com a função ``compute_entropy``
-13)Determinar a entropia do histograma da imagem equalizada com a função ``compute_entropy``
-14)Mostre os números obtidos   
+9) Determinar os pixels que ocorrem com frequência inferior a 20% da máxima frequência do histograma imagem equalizada. A função ``max`` da ``numpy`` determina o maximo valor de um array. 
+10) Determinar a média do valor dos pixels que ocorrem com baixa frequência da imagem não equalizada.
+11) Determinar a media do valor dos pixels que ocorrem com baixa frequência da imagem equalizada.
+12) Determinar a entropia do histograma da imagem original com a função ``compute_entropy``
+13) Determinar a entropia do histograma da imagem equalizada com a função ``compute_entropy``
+14) Mostre os números obtidos   

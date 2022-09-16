@@ -17,3 +17,7 @@ xray_image_eq =  ____.____(chest_xray_image)
 
 # Show the resulting image
 show_image(____, 'Resulting image')
+
+# Show the histogram equalized
+plt.__(___, ___)
+plt.show()
